@@ -86,10 +86,10 @@ local Loading = (function()
     local alpha = 0
     
     local function draw()
-        if alpha == 0 then
-            return
-        end
-        font:write((WIDTH-w)/2, (HEIGHT-size)/2, loading, size, 1,1,1,alpha)
+        -- if alpha == 0 then
+        -- return
+        -- end
+        -- font:write((WIDTH-w)/2, (HEIGHT-size)/2, loading, size, 1,1,1,alpha)
     end
 
     local function fade_in()
